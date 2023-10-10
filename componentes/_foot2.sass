@@ -1,0 +1,56 @@
+.foot2
+    @include espacio(100%, 370px, rgb(35, 47, 62))
+    @include flexbox(flex, row, center, flex-start)
+    padding: 30px 30px 50px 30px
+    gap: 110px
+
+    &__div1
+        @include espacio(87px, 100%, none)
+        @include flexbox(flex, column, none, none)
+        gap: 9px
+
+        h2
+            @include letras(15.5px, 600, none, rgb(221, 221, 221))
+
+        a
+            @include letras(14px, 500, none, rgb(221, 221, 221))
+            &:hover
+                text-decoration: underline
+
+    &__div2
+        @include espacio(200px, 100%, none)
+        @include flexbox(flex, column, none, none)
+        gap: 9px
+
+        h2
+            @include letras(15.5px, 600, none, rgb(221, 221, 221))
+                
+        a
+            @include letras(14px, 500, none, rgb(221, 221, 221))
+            &:hover
+                text-decoration: underline
+    &__div3
+        @include espacio(228px, 100%, none)
+        @include flexbox(flex, column, none, none)
+        gap: 9px
+    
+        h2
+            @include letras(15.5px, 600, none, rgb(221, 221, 221))
+            
+        a
+            @include letras(14px, 500, none, rgb(221, 221, 221))
+            &:hover
+                text-decoration: underline
+
+    &__div4
+        @include espacio(142px, 100%, none)
+        @include flexbox(flex, column, none, none)
+        gap: 9px
+
+        h2
+            @include letras(15.5px, 600, none, rgb(221, 221, 221))
+                
+        a
+            @include letras(14px, 500, none, rgb(221, 221, 221))
+            &:hover
+                text-decoration: underline

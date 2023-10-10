@@ -1,0 +1,39 @@
+footer
+    @include espacio(100%, auto, aliceblue)
+
+    .foot1
+        @include espacio(100%, auto, aliceblue)
+        @include flexbox(flex, column, center, center)
+        gap: 6px
+        border: 1px solid gray
+        border-radius: 4px
+
+        &__p
+            font-size: 13px
+
+        &__button
+            @include espacio(230px, 28px, none)
+            @include letras(12px, 700, none, black)
+            border-radius: 4px
+            border: 1px solid rgb(230, 164, 0)
+            background: linear-gradient(rgb(255, 216, 117), rgb(230, 164, 0))
+            cursor: pointer
+            
+        &__span
+            @include flexbox(flex, row, center, none)
+            font-size: 11px
+
+            a
+                color: rgb(0, 113, 133)
+                cursor: pointer
+                text-decoration: none
+                &:hover
+                    color: rgb(208, 81, 31)
+    .volverUP
+        @include espacio(100%, 49px, rgb(55, 71, 90))
+        @include letras(13px, lighter, none, aliceblue)
+        padding: 15px 0px
+        border: none
+        &:hover
+            background-color: rgb(72, 87, 105)
+            cursor: pointer

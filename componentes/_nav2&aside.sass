@@ -1,0 +1,106 @@
+.top2
+    @include espacio(100%, 39px,rgb(35, 47, 62))
+    display: flex
+    position: fixed
+    margin-top: 60px
+    top: 0
+    z-index: 100
+
+    .boton_aside
+        @include espacio(auto, 39px,rgb(35, 47, 62))
+        @include flexbox(flex, row, center, center)
+        @include letras(13.3px, 700, none, aliceblue)
+        padding: 7px 4.6px
+        margin-left: 10.5px
+        cursor: pointer
+        border: 1px solid transparent
+        &:hover
+            border: 1px solid white
+        #label1
+            @include flexbox(flex, row, center, center)
+            width: auto
+            img
+                width: 27px
+        
+        #label2
+            display: none
+            position: fixed
+            margin-left: 680px
+
+            img
+                z-index: 102
+                cursor: pointer
+
+            .fondo_negro
+                @include espacio(100vw, 100vw,rgb(0, 0, 0))
+                z-index: 101
+                position: fixed
+                left: 0
+                opacity: 0.8
+                display: flex
+
+        #input_todo
+            display: none
+            &:checked ~ .aside 
+                display: flex
+            &:checked ~ #label2 
+                display: flex
+
+        .aside
+            @include espacio(365px, 100vh, white)
+            @include flexbox(none, column, none, none)
+            position: fixed
+            top: 0
+            left: 0
+            z-index: 102
+
+            &__nav
+                @include espacio(365px, 58px, rgb(35, 47, 62))
+                @include flexbox(flex, row, flex-start, none)
+                cursor: auto
+
+                button
+                    @include espacio(100%, 47px, rgb(35, 47, 62))
+                    @include letras(20px, 700, none, aliceblue)
+                    border: none
+                    padding-left: 30px 
+                        
+            &__section
+                @include espacio(100%, 100%, none)
+                @include flexbox(flex, column, none, none)
+                overflow-y: scroll
+                padding-bottom: 40px
+                padding-top: 10px
+                
+                .divisiones
+                    @include flexbox(flex, column, none, none)         
+                    padding-top: 5px
+                    padding-bottom: 5px
+                    color: rgb(17, 17, 17)
+
+                    h1
+                        @include letras(18px, lighter, none, rgb(17, 17, 17))
+                        margin-top: 10px
+                        margin-bottom: 10px 
+                        margin-left: 30px 
+
+                    button
+                        @include espacio(100%, 42px, white)
+                        @include flexbox(flex, row, flex-start, center)
+                        padding-left: 40px
+                        margin-right: 40px
+                        font-size: 13.5px
+                        border: none
+                        &:hover
+                            background-color: rgb(234, 237, 237)
+            
+    &__botones
+        @include espacio(auto, 39px, rgb(35, 47, 62))
+        @include flexbox(flex, row, center, center)
+        @include letras(13.3px, lighter, none, aliceblue)
+        padding: 7px 4.6px
+        margin-left: 10.5px
+        cursor: pointer
+        border: 1px solid transparent
+        &:hover
+            border: 1px solid white

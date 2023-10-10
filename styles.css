@@ -1093,7 +1093,8 @@ footer .volverUP:hover {
   background-color: rgb(72, 87, 105);
   cursor: pointer;
 }
-footer .foot2 {
+
+.foot2 {
   width: 100%;
   height: 370px;
   background-color: rgb(35, 47, 62);
@@ -1104,7 +1105,7 @@ footer .foot2 {
   padding: 30px 30px 50px 30px;
   gap: 110px;
 }
-footer .foot2__div1 {
+.foot2__div1 {
   width: 87px;
   height: 100%;
   background-color: none;
@@ -1114,22 +1115,22 @@ footer .foot2__div1 {
   align-items: none;
   gap: 9px;
 }
-footer .foot2__div1 h2 {
+.foot2__div1 h2 {
   font-size: 15.5px;
   font-weight: 600;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div1 a {
+.foot2__div1 a {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div1 a:hover {
+.foot2__div1 a:hover {
   text-decoration: underline;
 }
-footer .foot2__div2 {
+.foot2__div2 {
   width: 200px;
   height: 100%;
   background-color: none;
@@ -1139,22 +1140,22 @@ footer .foot2__div2 {
   align-items: none;
   gap: 9px;
 }
-footer .foot2__div2 h2 {
+.foot2__div2 h2 {
   font-size: 15.5px;
   font-weight: 600;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div2 a {
+.foot2__div2 a {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div2 a:hover {
+.foot2__div2 a:hover {
   text-decoration: underline;
 }
-footer .foot2__div3 {
+.foot2__div3 {
   width: 228px;
   height: 100%;
   background-color: none;
@@ -1164,22 +1165,22 @@ footer .foot2__div3 {
   align-items: none;
   gap: 9px;
 }
-footer .foot2__div3 h2 {
+.foot2__div3 h2 {
   font-size: 15.5px;
   font-weight: 600;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div3 a {
+.foot2__div3 a {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div3 a:hover {
+.foot2__div3 a:hover {
   text-decoration: underline;
 }
-footer .foot2__div4 {
+.foot2__div4 {
   width: 142px;
   height: 100%;
   background-color: none;
@@ -1189,32 +1190,35 @@ footer .foot2__div4 {
   align-items: none;
   gap: 9px;
 }
-footer .foot2__div4 h2 {
+.foot2__div4 h2 {
   font-size: 15.5px;
   font-weight: 600;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div4 a {
+.foot2__div4 a {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
-footer .foot2__div4 a:hover {
+.foot2__div4 a:hover {
   text-decoration: underline;
 }
-footer .foot3 {
+
+.foot3 {
   width: 100%;
   height: 130px;
   background-color: none;
 }
-footer .foot3 .linea {
+
+.linea {
   width: 100%;
   height: 1px;
   background-color: rgb(58, 69, 83);
 }
-footer .foot3 .foot3__section {
+
+.foot3__section {
   width: 100%;
   height: 100%;
   background-color: rgb(35, 47, 62);
@@ -1223,7 +1227,7 @@ footer .foot3 .foot3__section {
   justify-content: center;
   align-items: center;
 }
-footer .foot3 .foot3__section__logo {
+.foot3__section__logo {
   width: 76px;
   height: 26px;
   background-color: none;
@@ -1231,7 +1235,7 @@ footer .foot3 .foot3__section__logo {
   margin-left: 11px;
   cursor: pointer;
 }
-footer .foot3 .foot3__section__boton {
+.foot3__section__boton {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -1239,7 +1243,7 @@ footer .foot3 .foot3__section__boton {
   width: 480px;
   gap: 5px;
 }
-footer .foot3 .foot3__section__boton button {
+.foot3__section__boton button {
   background-color: rgb(35, 47, 62);
   color: rgb(204, 204, 204);
   border: 1px solid rgb(132, 134, 136);
@@ -1247,13 +1251,14 @@ footer .foot3 .foot3__section__boton button {
   padding: 7px;
   cursor: pointer;
 }
-footer .foot4 {
+
+.foot4 {
   width: 100%;
   height: 600px;
   background-color: rgb(19, 26, 34);
   display: flex;
 }
-footer .foot4__divisiones {
+.foot4__divisiones {
   width: 100%;
   height: 100%;
   background-color: none;
@@ -1264,19 +1269,20 @@ footer .foot4__divisiones {
   margin: 30px 290px 40px 290px;
   padding-bottom: 60px;
 }
-footer .foot4__divisiones div {
+.foot4__divisiones div {
   background-color: rgb(19, 26, 34);
 }
-footer .foot4__divisiones div a {
+.foot4__divisiones div a {
   font-size: 12px;
   font-weight: lighter;
   text-decoration: none;
   color: rgb(153, 153, 153);
 }
-footer .foot4__divisiones div a h4 {
+.foot4__divisiones div a h4 {
   color: aliceblue;
 }
-footer .foot5 {
+
+.foot5 {
   width: 100%;
   height: 77px;
   background-color: rgb(19, 26, 34);
@@ -1286,7 +1292,7 @@ footer .foot5 {
   text-decoration: none;
   color: aliceblue;
 }
-footer .foot5 a {
+.foot5 a {
   font-size: 14px;
   font-weight: lighter;
   text-decoration: none;

@@ -1,0 +1,158 @@
+.top1
+    @include espacio(100%, 60px, rgb(19, 25, 33))
+    @include flexbox(flex, row, space-between, center)
+    position: fixed
+    top: 0
+    z-index: 100
+
+
+    .nav_part1
+        @include espacio(15%, 60px, rgb(19, 25, 33))
+        @include flexbox(flex, row, space-around, center)
+
+        .logo
+            @include espacio(113px,50px,rgb(19, 25, 33))
+            @include flexbox(flex, row, center, center)
+           
+            img
+                @include espacio(96px , 29px, none)
+                margin-top: 4px
+                margin-left: 11px
+
+        .env_vnzl
+
+            @include espacio(104px, 50px, rgb(19, 25, 33))
+            @include flexbox(flex, row, center, center)
+            cursor: pointer
+            border: none
+            &:hover
+                border: 1px solid white
+                    
+            #img
+                img
+                    margin-top: 15px
+                    @include espacio(22px, 19.6px, none)
+
+                    
+            #textos
+                #enviar
+                    color: rgb(204, 204, 204)
+                    margin-right: 23.5px
+                    margin-top: 3px
+                    font-size: 11.2px
+
+                #venezuela
+                    @include letras(13.2px, 600, none, aliceblue)
+                    margin-bottom: 5px
+                    
+    .nav_part2
+        @include espacio(57%, 60px, none)
+        @include flexbox(flex, row, center, center)
+
+        #secciones_bus
+            @include espacio(7.2%, 40px,rgb(230, 230, 230))
+            @include flexbox(flex, row, center, center)
+            margin-left: 8px
+            border-right: 1px solid
+            border-top: none
+            border-left: none
+            border-bottom: none 
+            border-color: rgb(205, 205, 205) 
+            cursor: pointer
+            border-radius: 4px 0px 0px 4px
+            p
+                @include letras(12px, lighter, none, rgb(85, 85, 85))
+
+        #buscador
+            @include espacio(87.5%, 40px, none)
+            border: none
+            text-indent: 7.5px
+            font-size: 14px
+            padding-bottom: 3px
+
+        #btn_buscar
+            @include espacio(5%, 40px,rgb(254, 189, 105))
+            @include flexbox(flex, row, center, center)
+            border: none
+            border-radius: 0px 4px 4px 0px
+
+    .nav_part3
+        @include espacio(27%, 60px,rgb(19, 25, 33))
+        @include flexbox(flex, row, center, center)
+
+        .espacio1
+            @include espacio(71px, 50px,rgb(19, 25, 33))
+            @include flexbox(flex, row, center, center)
+            cursor: pointer
+            border: none
+            gap: 4px
+            border: 1px solid transparent
+            &:hover
+                border: 1px solid white
+
+            img
+                width: 22px
+            
+            p
+                @include letras(13.2px, 600, none, aliceblue)
+                margin-bottom: 5px
+            
+        .espacio2
+            @include espacio(129px, 50px,rgb(19, 25, 33))
+            @include flexbox(flex, column, center, flex-start)
+            cursor: pointer
+            border: none
+            border: 1px solid transparent
+            &:hover
+                border: 1px solid white 
+            
+            #hola_id
+                color: rgb(204, 204, 204)
+                margin-right: 23.5px
+                margin-top: 3px
+                font-size: 11.2px
+            
+            #cuenta_list
+                @include letras(13.2px, 600, none, aliceblue)
+                margin-bottom: 5px
+        
+        .espacio3
+            @include espacio(90px, 50px,rgb(19, 25, 33))
+            @include flexbox(flex, column, center, flex-start)
+            cursor: pointer
+            border: none
+            border: 1px solid transparent
+            &:hover
+                border: 1px solid white
+
+            #devoluciones
+                color: rgb(204, 204, 204)
+                margin-right: 23.5px
+                margin-top: 3px
+                font-size: 11.2px
+
+            #pedidos
+                @include letras(13.2px, 600, none, aliceblue)    
+                margin-bottom: 5px
+        
+        .espacio4
+            @include espacio(80px, 50px,rgb(19, 25, 33))
+            @include flexbox(flex, row, center, center)
+            cursor: pointer
+            border: 1px solid transparent
+            &:hover
+                border: 1px solid white
+
+            section
+                @include espacio(41px, 28px, none)
+                color: rgb(240, 136, 4)
+                font-size: 17px
+                font-weight: 600
+                background-image: url("Imagenes/carrito.jpg")
+                background-position: center center
+                text-align: center
+                    
+            #text_carrito
+                @include letras(13.2px, 600, none, aliceblue)
+                margin-top: 10px
+    

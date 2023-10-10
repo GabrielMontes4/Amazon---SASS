@@ -1,0 +1,29 @@
+.foot4
+    @include espacio(100%, 600px, rgb(19, 26, 34))
+    display: flex
+
+    &__divisiones
+        @include espacio(100%, 100%, none)
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr))
+        column-gap: 20px
+        row-gap: 5px
+        margin: 30px 290px 40px 290px
+        padding-bottom: 60px
+            
+        div
+            background-color: rgb(19, 26, 34)
+
+            a
+                @include letras(12px, lighter, none,rgb(153, 153, 153))
+                
+                h4
+                    color: aliceblue
+
+.foot5
+    @include espacio(100%, 77px, rgb(19, 26, 34))
+    text-align: center
+    @include letras(14px, lighter, none, aliceblue)
+
+    a
+        @include letras(14px, lighter, none, aliceblue)
